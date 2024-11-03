@@ -1,0 +1,103 @@
+body {
+    overflow: hidden;
+}
+
+.home-header {
+    /* background: #f1410b;  */
+    color: #fff;
+    background-image: url(background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    height: 60px; 
+    width: 60px; 
+    margin: 20px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 50%; 
+    padding: 5px; 
+    transition: transform 0.3s ease; 
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+}
+
+.play-btn:hover {
+transform: scale(1.05); 
+}
+
+
+.home-header .row {
+    padding-top: 10px;
+    padding-bottom: 15%;
+}
+
+.promo-text-box {
+    margin-top: 15%;
+}
+
+.promo-text-box h1 {
+    margin-bottom: 25px;
+}
+
+.play-btn {
+    width: 25px;
+    margin: 20px;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.lead-form {
+    width: 90%;       
+    max-width: 350px;      
+    background: #fff;
+    margin:20px auto;
+    /* margin-left: 200px; */
+    border-radius: 3px;
+}
+
+.title-box {
+    background-color: hsl(46, 90%, 73%);
+    height: 150px;
+    padding-top: 30px;
+    border-bottom-left-radius: 200px 50px;
+    border-bottom-right-radius: 200px 50px;
+}
+
+form label {
+    float: left;
+    margin-left: 37px;
+    color: #999;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.input-box {
+    width: 280px;
+    height: 40px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #999;
+}
+
+.input-box ::placeholder {
+    color: #999;
+}
+
+.submit-btn {
+    width: 280px;
+    height: 50px;
+    color: #fff;
+    font-weight: 600;
+    background-color: hsl(46, 90%, 73%);
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: -30px;
+}
